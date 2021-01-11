@@ -1,7 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
-}
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,15 +16,72 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
-background-color: blue;
-}
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url('./img/103997056_1194622250884740_8770360516391392299_o.jpg');
+  background-position: center;
+  background-position-x: left;
+  background-position-y: -80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
 
+}
+.head-title{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: solid black;
+
+}
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+}
+.App-header h2{
+  width: 100%;
+  font-size: 2.5rem;
+  margin-top: 2%;
+}
+.App-header h4{
+  width: 100%;
+  font-size: 2rem;
+  text-align: end;
+  margin-top: 2%;
+  padding-right: 2%;
+  
+}
 .App-link {
   color: #61dafb;
 }
 
+.navigation{
+  width: 100%;
+  top: 0;
+  padding: 20px 0;
+  position: sticky;
+  background-image: linear-gradient(black, gray, white);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+a{
+color: white;
+text-decoration: none;
+}
+a:hover{
+  color: aquamarine;
+  font-size: 1.5rem;
+}
+h3{
+  height: 1500px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

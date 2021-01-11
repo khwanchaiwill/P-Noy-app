@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+@media screen and (max-width: 550px){
+   .App-header{ 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('./img/103997056_1194622250884740_8770360516391392299_o.jpg');
+    background-position: center;
+    /* background-position-x: left; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+   }
+   .head-title{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    border: solid black;
+  }
+  .App-header h2{
+    width: 100%;
+    font-size: 1.2rem;
+    margin-top: 2%;
+    color: rgb(17, 223, 212);
+    text-shadow: 0 0 5px black, 0 0 10px gray, 0 0 15px white;
+  }
+  .App-header h4{
+    width: 40%;
+    font-size: 1rem;
+    text-align: end;
+    color: blueviolet;
+
+  }
+  .navigation{
+    padding: 10px 0;
+    position: sticky;
+  }
+  a{
+      font-size: 0.8rem;
+  }
+  a:hover{
+    font-size: 1rem;
+  }
+
+}
