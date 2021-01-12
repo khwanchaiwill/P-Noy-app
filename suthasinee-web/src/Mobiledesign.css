@@ -8,11 +8,10 @@
     flex-wrap: wrap;
     background-image: url('./img/103997056_1194622250884740_8770360516391392299_o.jpg');
     background-position: center;
-    /* background-position-x: left; */
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 200px;
+    background-position-y: -17px;
+    height: 220px;
    }
    .head-title{
     width: 100%;

@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import './Mobiledesign.css'
 import Navbar from './component/Navbar';
+import Home from './component/Home';
 import Footer from './component/Footer';
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
       <div className="sticky">
         <Navbar />
       </div> 
-      <h3>App on</h3>
+      <div>
+        <Home />
+      </div>
         <Footer />
     </div>
   );
